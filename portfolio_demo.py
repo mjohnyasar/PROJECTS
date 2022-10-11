@@ -6,7 +6,7 @@ import streamlit as st
 
 
 st.header(" M John Yasar PORTFOLIO Page")
-st.image("/content/mjohnyasar.jpg",width=150,caption="mjohnyasar ")
+st.image("mjohnyasar.jpg",width=150,caption="mjohnyasar ")
 
 st.subheader("Customer RFM ")
 st.write("Check Out This: [Customer RFM Analysis](https://mjohnyasar-internship-rfm-streamlit-rfm-hlyqxv.streamlitapp.com/)")
