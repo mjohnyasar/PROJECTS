@@ -8,10 +8,10 @@ from datetime import timedelta
 st.header(" SALES INCOME ESTIMATION  ")
 st.subheader("(Data: Salevali_Samdata )")
 
-st.image("luckyfloorsbc_LOGO.JPG",width=600, caption="Could you guess the Total Sales?")
+st.image("Pergamo_LOGO.PNG",width=600, caption="Could you guess the Total Sales?")
 st.subheader(" What could be the  sales income in next days, weeks and months?")
 
-st.image("flooring.jpg",width=200)
+st.image("Pergamo_Products.PNG",width=200)
 datetime.datetime.now()
 
 
