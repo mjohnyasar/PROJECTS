@@ -4,14 +4,14 @@ import streamlit as st
 # import seaborn as sns
 #import matplotlib.pyplot as plt
 
+st.header(" M John Yasar PORTFOLIO Page")
+st.image("mjohnyasar.jpg",width=150,caption="mjohnyasar ")
+
 st.subheader("M John Yasar Social links")
 st.write("for LinkedIn: [https://www.linkedin.com/in/mjohnyasar/](https://www.linkedin.com/in/mjohnyasar/)")
 st.write("for GitHub: [https://github.com/mjohnyasar](https://github.com/mjohnyasar")
 st.write("for Kaggle: [https://www.kaggle.com/muharremyasar](https://www.kaggle.com/muharremyasar")
 st.write("for Stackoverflow: [https://stackoverflow.com/users/../m-john](https://stackoverflow.com/users/16801544/m-john)")
-
-st.header(" M John Yasar PORTFOLIO Page")
-st.image("mjohnyasar.jpg",width=150,caption="mjohnyasar ")
 
 st.subheader("Time Series Prediction, ARIMA, Sarimax")
 st.write("Check Out This: [Sales Income Estimation](https://mjohnyasa-total-sales-revenue-preditiontotal-sales-demo-7zb8rq.streamlitapp.com/)")
