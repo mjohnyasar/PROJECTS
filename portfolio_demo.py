@@ -7,12 +7,13 @@ import streamlit as st
 st.header(" M John Yasar PORTFOLIO Link Page")
 st.image("mjohnyasar.jpg",width=150,caption="mjohnyasar ")
 
-st.subheader("Social accounts")
+st.header("Social accounts")
 st.write("LinkedIn: [https://www.linkedin.com/..](https://www.linkedin.com/in/mjohnyasar/)")
 st.write("GitHub: [(https://github.com/..](https://github.com/mjohnyasar)")
 st.write("Kaggle: [https://www.kaggle.com/..](https://www.kaggle.com/muharremyasar)")
 st.write("Stackoverflow: [https://stackoverflow.com/..](https://stackoverflow.com/users/16801544/m-john)")
 
+st.header("Some deployment and project links")
 st.subheader("Time Series Prediction, ARIMA, Sarimax")
 st.write("Check Out This: [Sales Income Estimation](https://mjohnyasa-total-sales-revenue-preditiontotal-sales-demo-7zb8rq.streamlitapp.com/)")
 st.info("SARIMAX model were used to predict next days, weeks and months sales revenue ")
