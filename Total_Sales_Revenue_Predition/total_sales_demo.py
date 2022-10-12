@@ -6,7 +6,7 @@ from datetime import timedelta
 # import matplotlib.pyplot as plt
 
 st.header(" SALES INCOME ESTIMATION  ")
-st.subheader("(Data: Salevali_Samdata )")
+st.subheader("(Data: Daily Product Sales )")
 
 st.image("Total_Sales_Revenue_Predition/flooring.jpg",width=600, caption="Could you guess the Total Sales?")
 st.subheader(" What could be the  sales income in next days, weeks and months?")
