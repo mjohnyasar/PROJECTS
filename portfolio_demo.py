@@ -4,7 +4,7 @@ import streamlit as st
 # import seaborn as sns
 #import matplotlib.pyplot as plt
 
-st.header(" M John Yasar PORTFOLIO Page")
+st.header(" M John Yasar PORTFOLIO Link Page")
 st.image("mjohnyasar.jpg",width=150,caption="mjohnyasar ")
 
 st.subheader("M John Yasar Social links")
