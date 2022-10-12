@@ -18,7 +18,7 @@ datetime.datetime.now()
 st.success("For estimation Please choose one of the options below")
 
 if st.checkbox("Month by month prediction"):
-    test_=pd.read_csv("ARIMA_test_monthly_all.csv").set_index("Unnamed: 0") 
+    test_=pd.read_csv("ARIMA_test_monthly_all.csv").set_index("Date") 
     test_.index = pd.to_datetime(test_.index)
 
     st.warning("From the beginning monthly sales income,  the next 6 months future prediction")
@@ -36,7 +36,7 @@ if st.checkbox("Month by month prediction"):
     st.table(test_[-8:])                                        # tablo halinde listeler
 
 if st.checkbox("Week by week prediction"):
-    test_=pd.read_csv("ARIMA_test_weekly_all.csv").set_index("Unnamed: 0") 
+    test_=pd.read_csv("ARIMA_test_weekly_all.csv").set_index("Date") 
     test_.index = pd.to_datetime(test_.index)
 
     st.warning("The Last year's weekly sales income,  next 3 months future prediction")
