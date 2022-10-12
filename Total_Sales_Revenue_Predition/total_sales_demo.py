@@ -12,7 +12,7 @@ st.image("Total_Sales_Revenue_Predition/luckyfloorsbc_LOGO.JPG",width=300, capti
 st.subheader(" What could be the  sales income in next days, weeks and months?")
 
 st.image("Total_Sales_Revenue_Predition/floor_showroom.jpg",width=200)
-st.image("Total_Sales_Revenue_Predition/floor_material2.jpg",width=200)
+# st.image("Total_Sales_Revenue_Predition/floor_material2.jpg",width=200)
 datetime.datetime.now()
 
 
