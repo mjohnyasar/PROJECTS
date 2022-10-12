@@ -8,7 +8,7 @@ from datetime import timedelta
 st.header(" SALES INCOME ESTIMATION  ")
 st.subheader("(Data: Daily Product Sales )")
 
-st.image("Total_Sales_Revenue_Predition/floor_room.jpg",width=500, caption="Could you guess the Total Sales?")
+st.image("Total_Sales_Revenue_Predition/floor_room2.jpg",width=500, caption="Could you guess the Total Sales?")
 st.subheader(" What could be the  sales income in next days, weeks and months?")
 
 st.image("Total_Sales_Revenue_Predition/luckyfloorsbc_LOGO.JPG",width=200)
@@ -29,8 +29,8 @@ if st.checkbox("Month by month prediction"):
     result=test_["predicted"][-6]
     result_avg=test_["predicted"][-6:].mean()
 
-    st.info("Next month's estimation: €{}".format(int(result)))
-    st.info("Next 6 months'  average: €{}".format(int(result_avg)))
+    st.info("Next month's estimation: ${}".format(int(result)))
+    st.info("Next 6 months'  average: ${}".format(int(result_avg)))
     
     test_ = test_.resample('M').sum().astype('int')        # to prevent the floating numbers after dot (.)
     test_.index = pd.to_datetime(test_.index).date         # only to show the date not date&time
@@ -51,8 +51,8 @@ if st.checkbox("Week by week prediction"):
     # Total predicted record number for 3 months =13 weeks=13 records in ARIMA_test_weekly_all
     result=test_["predicted"][-13]
     result_avg=test_["predicted"][-13:-9].mean()
-    st.info("Next week's estimation  : €{}".format(int(result)))
-    st.info("Next 4 weeks' mean: €{}".format(int(result_avg)))
+    st.info("Next week's estimation  : ${}".format(int(result)))
+    st.info("Next 4 weeks' mean: ${}".format(int(result_avg)))
 
     test_ = test_.resample('W').sum().astype('int')        # to prevent the floating numbers after dot (.)
     test_.index = pd.to_datetime(test_.index).date         # only to show the date not date&time
@@ -79,8 +79,8 @@ if st.checkbox("Day by day prediction"):
     result=test_["predicted"][prn]
     result_avg=test_["predicted"][prn:prn+7].mean()
 
-    st.info("Next day's estimation : €{}".format(int(result)))
-    st.info("Next week's daily mean: €{}".format(int(result_avg)))
+    st.info("Next day's estimation : ${}".format(int(result)))
+    st.info("Next week's daily mean: ${}".format(int(result_avg)))
 
     test_ = test_.resample('D').sum().astype('int')  # to prevent the floating numbers after dot (.)
     test_.index = pd.to_datetime(test_.index).date  # only to show the date not date&time
