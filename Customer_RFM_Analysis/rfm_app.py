@@ -6,8 +6,8 @@ st.set_page_config(page_title ="RFM Analysis",
                   page_icon= ":bar_chart:",
                   layout= "wide"
                   )
-
-df= pd.read_excel(io='Customer_RFM_Analysis/rfm.xlsx', engine='openpyxl',
+#engine='openpyxl',
+df= pd.read_excel(io='Customer_RFM_Analysis/rfm.xlsx', 
                   skiprows=0, sheet_name= 'RFM',
                   usecols="A:J", nrows=2819)
 df["customer_id"]=df["customer_id"].astype(str)
