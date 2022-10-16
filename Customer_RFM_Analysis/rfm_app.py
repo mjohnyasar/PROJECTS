@@ -8,7 +8,7 @@ st.set_page_config(page_title ="RFM Analysis",
                   )
 
 #df= pd.read_excel(io='Customer_RFM_Analysis/rfm.xlsx', #engine='openpyxl', skiprows=0, sheet_name= 'RFM', usecols="A:J", nrows=2819)
-df= pd.read_excel('Customer_RFM_Analysis/rfm.xlsx')
+df= pd.read_excel("Customer_RFM_Analysis/rfm.xlsx") 
 df["customer_id"]=df["customer_id"].astype(str)
 
 st.header("All Data:")
