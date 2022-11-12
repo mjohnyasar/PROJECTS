@@ -27,7 +27,7 @@ st.warning("RFM is a method used for analyzing customer value. It is commonly us
 
 
 
-st.subheader("©    Power BI projects samples")
-st.write("Check Out This: [Customer RFM Analysis](https://mjohnyasar-internship-rfm-streamlit-rfm-hlyqxv.streamlitapp.com/)")
+st.subheader("©    Power BI project samples")
+st.write("Check Out This: [Power BI Projects](https://drive.google.com/file/d/1bjh_J2ZsPv22RyVWsKoXoL0HTX-dxCh-/view?usp=sharing)")
 st.info("In this project   first of all for each customer  RFM metrics were calculated (Recency, Frequency and Monetary ")
 st.warning("RFM is a method used for analyzing customer value. It is commonly used in database marketing and direct marketing and has received particular attention in retail and professional services industries. RFM stands for the three dimensions: Recency – How recently did the customer purchase? ")
